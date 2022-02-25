@@ -4,6 +4,8 @@ class Calculator():
         return c
     def sub(self,a,b):
         return a-b
+    def mul(self,a,b):
+        return a*b
 
 
 
@@ -12,3 +14,5 @@ d=object.add(2,3)
 print(d)
 e=object.sub(6,5)
 print(e)
+f=object.mul(5,6)
+print(f)
